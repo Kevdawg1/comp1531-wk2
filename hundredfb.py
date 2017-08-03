@@ -1,5 +1,6 @@
 #!/bin/python3.5
 #import sys
+import FizzBuzz()
 def hundred-fb():
 	for n in range(101):
 		strOut = ""
