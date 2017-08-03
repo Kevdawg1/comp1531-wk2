@@ -10,5 +10,7 @@ def FizzBuzz(n):
 		print (n)
 	else:	
 		print (strOut)
-n = int (sys.argv[1])
-FizzBuzz(n)
+
+if(len(sys.argv) == 2):
+	n = int (sys.argv[1])
+	FizzBuzz(n)
